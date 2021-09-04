@@ -1,0 +1,37 @@
+#body{
+    background: linear-gradient(#075da3 0%, #55acf2 100%);
+}
+
+#VT{
+    margin-right: 400px;
+    margin-top: 60px;
+}
+
+#BO{
+    margin-right: 400px;
+    margin-top: 200px;
+    margin-left: 90px;
+}
+
+#CH{
+    margin-right: 70px;
+    margin-left:5px;
+    margin-top:215px;
+}
+
+#GC{
+    margin-top: 70px;
+
+}
+
+#myCanvas{
+    background-color: white;
+    border-width: 10px;
+    border-style: ridge;
+
+}
+
+#color, #width{
+    width: 700px;
+
+}

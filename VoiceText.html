@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "Prototyoe.js"></script>
+        <link rel = "stylesheet" href = "Prototype.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    </head>
+    <body>
+        <center>
+        <h1>Voice Text</h1>
+        <hr>
+        <br>
+        <h3 class = "btn btn-danger">This voice text page is used so that you can use your 
+            voice to type in case you are not good at typing, so you can copy and paste it at the end, go to the bottom of the page if you don't know how to copy and paste</h3>
+            <br>
+            <br>
+            <textarea class = "form-control" readonly = "true" id = "VoiceR"></textarea>
+            <br>
+            <br>
+            <button onclick = "START()" class = "form form-warning">Start</button>
+            <br>
+            <br>
+            <br>
+            <button onclick = "Copy()">Press this button for copy and paste</button>
+
+        </center>
+
+
+    </body>
+</html>

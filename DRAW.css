@@ -1,0 +1,40 @@
+.body_backgorund {
+    background-color: rgb(5, 164, 212);
+    background-position: center;
+    background-size: cover;
+  }
+  body{
+    cursor: pointer;
+  }
+  h1
+  {
+      color: red; 
+      font-size: 40px;
+  }
+  #myCanvas
+  {
+      border-width:10px;
+      background-color: white; 
+      border-style:ridge;
+  }
+
+  button {
+    background-color: #faf4f4;
+    border: none;
+    color: white;
+    font-size: 8px;
+    float: right;
+    border-radius: 200;
+    width: 100px;
+    
+  }
+
+  input
+  {
+    margin-right: 20px;
+  }
+
+  #color, #width{
+ width: 800px;
+  }
+  
